@@ -3,5 +3,23 @@
     "description": "An example of a Robo plugin.",
     "type": "library",
     "license": "MIT",
-    "require": {}
+    "repositories": {
+        "robo-plugin-manager": {
+            "type": "path",
+            "url": "../robo_plugin_manager",
+            "options": {
+                "symlink": true
+            }
+        }
+    },
+    "require": {
+        "grasmash/robo-plugin-manager": "*@dev"
+        },
+    "extra": {
+        "robo": {
+            "operations": {
+                "install": "\\Robo\\Plugin\\Example::install"
+            }
+        }
+    }
 }
