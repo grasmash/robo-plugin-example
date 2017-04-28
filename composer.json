@@ -15,6 +15,11 @@
     "require": {
         "grasmash/robo-plugin-manager": "*@dev"
         },
+    "autoload": {
+        "psr-4": {
+            "Robo\\Plugin\\": "src/"
+        }
+    },
     "extra": {
         "robo": {
             "operations": {
