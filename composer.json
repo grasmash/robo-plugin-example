@@ -1,0 +1,7 @@
+{
+    "name": "grasmash/robo-plugin-example",
+    "description": "An example of a Robo plugin.",
+    "type": "library",
+    "license": "MIT",
+    "require": {}
+}
