@@ -23,7 +23,7 @@
     "extra": {
         "robo": {
             "operations": {
-                "install": "\\Robo\\Plugin\\Example::install"
+                "install": "\\RoboPluginExample\\Robo\\Plugin\\Plugin::install"
             }
         }
     }
