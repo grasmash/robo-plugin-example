@@ -26,5 +26,8 @@
                 "install": "\\RoboPluginExample\\Robo\\Plugin\\Plugin::install"
             }
         }
+    },
+    "require-dev": {
+        "composer/composer": "^1.4"
     }
 }
